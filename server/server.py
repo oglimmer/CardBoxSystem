@@ -58,7 +58,6 @@ async def read_card(card_id: int):
 
 @app.post("/cards", status_code=201)
 async def create_card(card: Card):
-    print("foo")
     cards = read_from_disk()
     newId = get_max_id(cards) + 1
     card.id = newId
