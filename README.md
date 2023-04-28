@@ -4,7 +4,7 @@
 docker compose up --build
 ```
 
-Access to UI at http://localhost:8080/
+Access the UI at http://localhost:8080/
 
 # start server locally
 
@@ -34,4 +34,4 @@ npm i
 npm run dev
 ```
 
-Access to UI at http://localhost:5173/
+Access the UI at http://localhost:5173/
